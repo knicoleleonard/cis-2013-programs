@@ -12,7 +12,7 @@ var calculateIncome = function ()
     {
     	if (floatAnnualIncome <= 30000)
     	{
-    		floatTaxRate = .025;
+    		floatTaxRate = 2.5;
     	}
     	else
     	{
