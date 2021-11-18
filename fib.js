@@ -23,7 +23,7 @@ var generate = function ()
 if (isNaN(intCount) || intCount<1 || intCount>100)// makes user choose number between 1 and 100
     {
         $("total_fib").value = "";
-        $("output").value = "Enter a valid input";
+        $("output").value = "Enter a valid input";//makes user enter valid number
         alert("Please enter a number between 1 and 100");//error message that will show up if you don't put a number between 1 and 100
     }
     else
@@ -36,7 +36,7 @@ if (isNaN(intCount) || intCount<1 || intCount>100)// makes user choose number be
             intCount--;
             stringOutput = stringOutput + " " + k;
         }
-        $("output").value = stringOutput;
+        $("output").value = stringOutput;//gives output
     }
 } 
 
