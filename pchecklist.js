@@ -20,7 +20,7 @@ var passwordCheckOld = function ()
  {
    for (var i=0; i<arrayBadPasswords.length; i++) // this is the length of your password
    {
-      if (stringPassword === arrayBadPasswords[1]) //this is the array bad password column. you have to make a password that does not fall into column of bad passwords
+      if (stringPassword === arrayBadPasswords[i]) //this is the array bad password column. you have to make a password that does not fall into column of bad passwords
       {
          stringOutput = "This password is not strong enough. Please try again."; // if the password is too simple and falls into list of bad passwords, it will make you try a new password again
       }
